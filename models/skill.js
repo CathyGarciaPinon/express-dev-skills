@@ -1,8 +1,9 @@
 const skills = [
-    {id: 125223, skill: 'Feed Dogs', done: true},
-    {id: 127904, skill: 'Learn Express', done: false},
-    {id: 139608, skill: 'Buy Milk', done: false}
-  ];
+    {id: 125223, skill: 'Learn HTML', done: true},
+    {id: 127904, skill: 'Learn CSS', done: true},
+    {id: 139608, skill: 'Learn JavaScript', done: false}
+    
+];
 
   module.exports = {
     getAll,

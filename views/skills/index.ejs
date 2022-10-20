@@ -9,11 +9,12 @@
 </head>
 <body>
     <a href="/">HOME</a>
-    <h1>All my skills</h1>
+    <h1>My Developer Skills</h1>
+    <h2><%= skillset %></h2>
     <ul>
       <% skills.forEach(function(s) { %>
         <li>
-          <a href="/skills/<%= s.id %>"><%= s.skills %></a>
+          <a href="/skills/<%= s.id %>"><%= s.skill %></a>
             - 
           <%= s.done ? 'done' : 'not done' %>
         </li>

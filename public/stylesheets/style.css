@@ -1,8 +1,18 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 20px "font-family: 'Cormorant Garamond', serif";
+  background-color: rgb(215, 173, 164);
 }
 
 a {
-  color: #00B7FF;
+  color: rgb(83, 40, 58);
+  
+}
+
+h1 {
+  color: rgb(58, 107, 111);
+}
+
+h2 {
+  color: rgb(123, 153, 145)
 }

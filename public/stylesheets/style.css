@@ -16,3 +16,16 @@ h1 {
 h2 {
   color: rgb(123, 153, 145)
 }
+
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+    
+.delete-form button {
+  color: red;
+}
+    
+li {
+  list-style: none;
+}
